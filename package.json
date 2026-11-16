@@ -1,0 +1,10 @@
+{
+  "name": "autonest-frontend",
+  "version": "1.0.0",
+  "description": "AutoNest - auto parts ordering and dispatch system (frontend + mock API)",
+  "scripts": {
+    "api": "json-server --watch data/db.json --port 3000",
+    "web": "npx serve . -l 5500"
+  },
+  "devDependencies": { "json-server": "0.17.4" }
+}

@@ -1,0 +1,1671 @@
+{
+ "users": [
+  {
+   "id": 1,
+   "name": "Ali Raza",
+   "email": "customer@autonest.pk",
+   "password": "Pass@123",
+   "role": "customer",
+   "phone": "0300-1234567",
+   "cnic": "42101-1234567-1",
+   "address": "House 12, Block 5, Gulshan-e-Iqbal, Karachi",
+   "accountType": "retail",
+   "workshopStatus": "none",
+   "creditLimit": 0,
+   "creditUsed": 0
+  },
+  {
+   "id": 2,
+   "name": "Karachi Motors Workshop",
+   "email": "workshop@autonest.pk",
+   "password": "Pass@123",
+   "role": "customer",
+   "phone": "0321-7654321",
+   "cnic": "42201-7654321-3",
+   "address": "Shop 4, Shahrah-e-Faisal, Karachi",
+   "accountType": "workshop",
+   "workshopStatus": "approved",
+   "creditLimit": 100000,
+   "creditUsed": 22000
+  },
+  {
+   "id": 3,
+   "name": "Sara Khan",
+   "email": "manager@autonest.pk",
+   "password": "Pass@123",
+   "role": "manager",
+   "phone": "0333-1112223",
+   "cnic": "42301-1112223-5",
+   "address": "AutoNest HQ",
+   "accountType": "staff",
+   "workshopStatus": "none",
+   "creditLimit": 0,
+   "creditUsed": 0
+  },
+  {
+   "id": 4,
+   "name": "Bilal Ahmed",
+   "email": "warehouse@autonest.pk",
+   "password": "Pass@123",
+   "role": "warehouse",
+   "phone": "0345-9998887",
+   "cnic": "42401-9998887-7",
+   "address": "Warehouse A",
+   "accountType": "staff",
+   "workshopStatus": "none",
+   "creditLimit": 0,
+   "creditUsed": 0
+  },
+  {
+   "id": 5,
+   "name": "Imran Rider",
+   "email": "rider@autonest.pk",
+   "password": "Pass@123",
+   "role": "rider",
+   "phone": "0312-5554443",
+   "cnic": "42501-5554443-9",
+   "address": "Rider Pool",
+   "accountType": "staff",
+   "workshopStatus": "none",
+   "creditLimit": 0,
+   "creditUsed": 0
+  },
+  {
+   "id": 6,
+   "name": "Hina Rider",
+   "email": "rider2@autonest.pk",
+   "password": "Pass@123",
+   "role": "rider",
+   "phone": "0313-2221110",
+   "cnic": "42601-2221110-1",
+   "address": "Rider Pool",
+   "accountType": "staff",
+   "workshopStatus": "none",
+   "creditLimit": 0,
+   "creditUsed": 0
+  },
+  {
+   "id": 7,
+   "name": "Admin User",
+   "email": "admin@autonest.pk",
+   "password": "Admin@123",
+   "role": "admin",
+   "phone": "0301-0000000",
+   "cnic": "42701-0000000-3",
+   "address": "AutoNest HQ",
+   "accountType": "staff",
+   "workshopStatus": "none",
+   "creditLimit": 0,
+   "creditUsed": 0
+  },
+  {
+   "id": 8,
+   "name": "Zaid Auto Care",
+   "email": "zaid@autonest.pk",
+   "password": "Pass@123",
+   "role": "customer",
+   "phone": "0322-8889990",
+   "cnic": "42801-8889990-5",
+   "address": "Plot 9, SITE Area, Karachi",
+   "accountType": "retail",
+   "workshopStatus": "pending",
+   "creditLimit": 0,
+   "creditUsed": 0
+  }
+ ],
+ "products": [
+  {
+   "id": 1,
+   "name": "Brake Pad Set (Front)",
+   "brand": "Bosch",
+   "category": "Brakes",
+   "price": 4500,
+   "stock": 25,
+   "makes": [
+    "Suzuki",
+    "Toyota",
+    "Honda"
+   ],
+   "description": "Ceramic compound, low dust, quiet braking.",
+   "icon": "🛑",
+   "partNo": "AN-1007",
+   "fitment": [
+    {
+     "make": "Suzuki",
+     "model": "Cultus",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Alto",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Swift",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Wagon R",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Corolla",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Yaris",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Vitz",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Hilux",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Civic",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "City",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Vezel",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Oil Filter",
+   "brand": "Denso",
+   "category": "Filters",
+   "price": 650,
+   "stock": 80,
+   "makes": [
+    "Suzuki",
+    "Toyota",
+    "Honda",
+    "Kia"
+   ],
+   "description": "Spin-on filter with anti-drain valve.",
+   "icon": "🛢️",
+   "partNo": "AN-1014",
+   "fitment": [
+    {
+     "make": "Suzuki",
+     "model": "Cultus",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Alto",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Swift",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Wagon R",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Corolla",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Yaris",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Vitz",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Hilux",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Civic",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "City",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Vezel",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Kia",
+     "model": "Sportage",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Kia",
+     "model": "Picanto",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Air Filter",
+   "brand": "Mahle",
+   "category": "Filters",
+   "price": 1200,
+   "stock": 40,
+   "makes": [
+    "Toyota",
+    "Honda",
+    "Suzuki"
+   ],
+   "description": "High-flow pleated paper element.",
+   "icon": "🌬️",
+   "partNo": "AN-1021",
+   "fitment": [
+    {
+     "make": "Toyota",
+     "model": "Corolla",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Yaris",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Vitz",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Hilux",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Civic",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "City",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Vezel",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Cultus",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Alto",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Swift",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Wagon R",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Spark Plug (Set of 4)",
+   "brand": "NGK",
+   "category": "Engine",
+   "price": 2400,
+   "stock": 60,
+   "makes": [
+    "Suzuki",
+    "Toyota",
+    "Honda",
+    "Kia",
+    "Hyundai"
+   ],
+   "description": "Iridium tip, longer service life.",
+   "icon": "⚡",
+   "partNo": "AN-1028",
+   "fitment": [
+    {
+     "make": "Suzuki",
+     "model": "Cultus",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Alto",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Swift",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Wagon R",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Corolla",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Yaris",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Vitz",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Hilux",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Civic",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "City",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Vezel",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Kia",
+     "model": "Sportage",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Kia",
+     "model": "Picanto",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Hyundai",
+     "model": "Tucson",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Hyundai",
+     "model": "Elantra",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Car Battery 12V 45Ah",
+   "brand": "Exide",
+   "category": "Electrical",
+   "price": 14500,
+   "stock": 12,
+   "makes": [
+    "Suzuki",
+    "Toyota",
+    "Honda"
+   ],
+   "description": "Maintenance-free, 18-month warranty.",
+   "icon": "🔋",
+   "partNo": "AN-1035",
+   "fitment": [
+    {
+     "make": "Suzuki",
+     "model": "Cultus",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Alto",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Swift",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Wagon R",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Corolla",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Yaris",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Vitz",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Hilux",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Civic",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "City",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Vezel",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Radiator Coolant 4L",
+   "brand": "Prestone",
+   "category": "Fluids",
+   "price": 2200,
+   "stock": 50,
+   "makes": [
+    "Suzuki",
+    "Toyota",
+    "Honda",
+    "Kia",
+    "Hyundai"
+   ],
+   "description": "Long-life 50/50 premix.",
+   "icon": "🧪",
+   "partNo": "AN-1042",
+   "fitment": [
+    {
+     "make": "Suzuki",
+     "model": "Cultus",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Alto",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Swift",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Wagon R",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Corolla",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Yaris",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Vitz",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Hilux",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Civic",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "City",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Vezel",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Kia",
+     "model": "Sportage",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Kia",
+     "model": "Picanto",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Hyundai",
+     "model": "Tucson",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Hyundai",
+     "model": "Elantra",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Shock Absorber (Rear)",
+   "brand": "KYB",
+   "category": "Suspension",
+   "price": 6800,
+   "stock": 18,
+   "makes": [
+    "Toyota",
+    "Honda"
+   ],
+   "description": "Gas-charged, direct OEM fit.",
+   "icon": "🔩",
+   "partNo": "AN-1049",
+   "fitment": [
+    {
+     "make": "Toyota",
+     "model": "Corolla",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Yaris",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Vitz",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Hilux",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Civic",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "City",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Vezel",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Headlight Bulb H4",
+   "brand": "Philips",
+   "category": "Electrical",
+   "price": 1800,
+   "stock": 70,
+   "makes": [
+    "Suzuki",
+    "Toyota",
+    "Honda",
+    "Kia",
+    "Hyundai"
+   ],
+   "description": "+60% brighter halogen, pair.",
+   "icon": "💡",
+   "partNo": "AN-1056",
+   "fitment": [
+    {
+     "make": "Suzuki",
+     "model": "Cultus",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Alto",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Swift",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Wagon R",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Corolla",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Yaris",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Vitz",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Hilux",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Civic",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "City",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Vezel",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Kia",
+     "model": "Sportage",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Kia",
+     "model": "Picanto",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Hyundai",
+     "model": "Tucson",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Hyundai",
+     "model": "Elantra",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Wiper Blade Pair",
+   "brand": "Bosch",
+   "category": "Body",
+   "price": 1500,
+   "stock": 45,
+   "makes": [
+    "Toyota",
+    "Honda",
+    "Hyundai"
+   ],
+   "description": "Flat-blade design, all-weather rubber.",
+   "icon": "🌧️",
+   "partNo": "AN-1063",
+   "fitment": [
+    {
+     "make": "Toyota",
+     "model": "Corolla",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Yaris",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Vitz",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Hilux",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Civic",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "City",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Vezel",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Hyundai",
+     "model": "Tucson",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Hyundai",
+     "model": "Elantra",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Timing Belt Kit",
+   "brand": "Gates",
+   "category": "Engine",
+   "price": 9800,
+   "stock": 9,
+   "makes": [
+    "Toyota",
+    "Honda"
+   ],
+   "description": "Belt, tensioner and idler pulley.",
+   "icon": "⚙️",
+   "partNo": "AN-1070",
+   "fitment": [
+    {
+     "make": "Toyota",
+     "model": "Corolla",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Yaris",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Vitz",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Hilux",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Civic",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "City",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Vezel",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Clutch Plate",
+   "brand": "Exedy",
+   "category": "Transmission",
+   "price": 8700,
+   "stock": 0,
+   "makes": [
+    "Suzuki",
+    "Toyota"
+   ],
+   "description": "Organic friction material, smooth engagement.",
+   "icon": "🛞",
+   "partNo": "AN-1077",
+   "fitment": [
+    {
+     "make": "Suzuki",
+     "model": "Cultus",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Alto",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Swift",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Wagon R",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Corolla",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Yaris",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Vitz",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Hilux",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Engine Oil 5W-30 4L",
+   "brand": "Castrol",
+   "category": "Fluids",
+   "price": 6200,
+   "stock": 35,
+   "makes": [
+    "Suzuki",
+    "Toyota",
+    "Honda",
+    "Kia",
+    "Hyundai"
+   ],
+   "description": "Fully synthetic, API SN.",
+   "icon": "🛢️",
+   "partNo": "AN-1084",
+   "fitment": [
+    {
+     "make": "Suzuki",
+     "model": "Cultus",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Alto",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Swift",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Wagon R",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Corolla",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Yaris",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Vitz",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Hilux",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Civic",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "City",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Vezel",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Kia",
+     "model": "Sportage",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Kia",
+     "model": "Picanto",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Hyundai",
+     "model": "Tucson",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Hyundai",
+     "model": "Elantra",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Cultus Fuel Pump",
+   "brand": "Denso",
+   "category": "Engine",
+   "price": 5400,
+   "stock": 14,
+   "makes": [
+    "Suzuki"
+   ],
+   "description": "Electric in-tank fuel pump for Cultus.",
+   "icon": "⛽",
+   "partNo": "AN-1091",
+   "fitment": [
+    {
+     "make": "Suzuki",
+     "model": "Cultus",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Alto",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Swift",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Suzuki",
+     "model": "Wagon R",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "Disc Rotor (Front, Pair)",
+   "brand": "Brembo",
+   "category": "Brakes",
+   "price": 11500,
+   "stock": 10,
+   "makes": [
+    "Honda",
+    "Kia",
+    "Hyundai"
+   ],
+   "description": "Vented rotors, coated against rust.",
+   "icon": "💿",
+   "partNo": "AN-1098",
+   "fitment": [
+    {
+     "make": "Honda",
+     "model": "Civic",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "City",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Vezel",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Kia",
+     "model": "Sportage",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Kia",
+     "model": "Picanto",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Hyundai",
+     "model": "Tucson",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Hyundai",
+     "model": "Elantra",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Alternator 90A",
+   "brand": "Denso",
+   "category": "Electrical",
+   "price": 18500,
+   "stock": 5,
+   "makes": [
+    "Toyota",
+    "Honda"
+   ],
+   "description": "Remanufactured, 6-month warranty.",
+   "icon": "🔌",
+   "partNo": "AN-1105",
+   "fitment": [
+    {
+     "make": "Toyota",
+     "model": "Corolla",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Yaris",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Vitz",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Hilux",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Civic",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "City",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Vezel",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Cabin AC Filter",
+   "brand": "Mahle",
+   "category": "Filters",
+   "price": 950,
+   "stock": 55,
+   "makes": [
+    "Toyota",
+    "Honda",
+    "Kia",
+    "Hyundai"
+   ],
+   "description": "Activated-carbon, traps odour and dust.",
+   "icon": "❄️",
+   "partNo": "AN-1112",
+   "fitment": [
+    {
+     "make": "Toyota",
+     "model": "Corolla",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Yaris",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Vitz",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Toyota",
+     "model": "Hilux",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Civic",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "City",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Honda",
+     "model": "Vezel",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Kia",
+     "model": "Sportage",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Kia",
+     "model": "Picanto",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Hyundai",
+     "model": "Tucson",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    },
+    {
+     "make": "Hyundai",
+     "model": "Elantra",
+     "yearFrom": 2008,
+     "yearTo": 2023
+    }
+   ]
+  }
+ ],
+ "orders": [
+  {
+   "id": 1,
+   "customerId": 1,
+   "items": [
+    {
+     "productId": 1,
+     "name": "Brake Pad Set (Front)",
+     "price": 4500,
+     "qty": 1
+    },
+    {
+     "productId": 2,
+     "name": "Oil Filter",
+     "price": 650,
+     "qty": 2
+    }
+   ],
+   "total": 5800,
+   "orderType": "retail",
+   "status": "Approved",
+   "address": "House 12, Block 5, Gulshan-e-Iqbal, Karachi",
+   "payment": "COD",
+   "riderId": null,
+   "createdAt": "2026-11-02T10:00:00",
+   "history": [
+    {
+     "status": "Placed",
+     "at": "2026-11-02T10:00:00"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "customerId": 2,
+   "items": [
+    {
+     "productId": 12,
+     "name": "Engine Oil 5W-30 4L",
+     "price": 6200,
+     "qty": 5
+    }
+   ],
+   "total": 31000,
+   "orderType": "workshop",
+   "status": "Pending Approval",
+   "address": "Shop 4, Shahrah-e-Faisal, Karachi",
+   "payment": "COD",
+   "riderId": null,
+   "createdAt": "2026-11-03T10:00:00",
+   "history": [
+    {
+     "status": "Placed",
+     "at": "2026-11-03T10:00:00"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "customerId": 1,
+   "items": [
+    {
+     "productId": 8,
+     "name": "Headlight Bulb H4",
+     "price": 1800,
+     "qty": 1
+    }
+   ],
+   "total": 1800,
+   "orderType": "retail",
+   "status": "Packed",
+   "address": "House 12, Block 5, Gulshan-e-Iqbal, Karachi",
+   "payment": "COD",
+   "riderId": null,
+   "createdAt": "2026-11-04T10:00:00",
+   "history": [
+    {
+     "status": "Placed",
+     "at": "2026-11-04T10:00:00"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "customerId": 2,
+   "items": [
+    {
+     "productId": 4,
+     "name": "Spark Plug (Set of 4)",
+     "price": 2400,
+     "qty": 4
+    }
+   ],
+   "total": 9600,
+   "orderType": "workshop",
+   "status": "Out for Delivery",
+   "address": "Shop 4, Shahrah-e-Faisal, Karachi",
+   "payment": "COD",
+   "riderId": 5,
+   "createdAt": "2026-11-05T10:00:00",
+   "history": [
+    {
+     "status": "Placed",
+     "at": "2026-11-05T10:00:00"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "customerId": 1,
+   "items": [
+    {
+     "productId": 3,
+     "name": "Air Filter",
+     "price": 1200,
+     "qty": 1
+    }
+   ],
+   "total": 1200,
+   "orderType": "retail",
+   "status": "Delivered",
+   "address": "House 12, Block 5, Gulshan-e-Iqbal, Karachi",
+   "payment": "COD",
+   "riderId": 5,
+   "createdAt": "2026-11-06T10:00:00",
+   "history": [
+    {
+     "status": "Placed",
+     "at": "2026-11-06T10:00:00"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "customerId": 1,
+   "items": [
+    {
+     "productId": 9,
+     "name": "Wiper Blade Pair",
+     "price": 1500,
+     "qty": 1
+    }
+   ],
+   "total": 1500,
+   "orderType": "retail",
+   "status": "Disputed",
+   "address": "House 12, Block 5, Gulshan-e-Iqbal, Karachi",
+   "payment": "COD",
+   "riderId": 6,
+   "createdAt": "2026-11-07T10:00:00",
+   "history": [
+    {
+     "status": "Placed",
+     "at": "2026-11-07T10:00:00"
+    }
+   ],
+   "disputeReason": "Wrong size delivered"
+  },
+  {
+   "id": 7,
+   "customerId": 2,
+   "items": [
+    {
+     "productId": 5,
+     "name": "Car Battery 12V 45Ah",
+     "price": 14500,
+     "qty": 1
+    }
+   ],
+   "total": 14500,
+   "orderType": "workshop",
+   "status": "Confirmed",
+   "address": "Shop 4, Shahrah-e-Faisal, Karachi",
+   "payment": "COD",
+   "riderId": 6,
+   "createdAt": "2026-11-08T10:00:00",
+   "history": [
+    {
+     "status": "Placed",
+     "at": "2026-11-08T10:00:00"
+    }
+   ]
+  }
+ ],
+ "vehicles": [
+  {
+   "id": 1,
+   "make": "Suzuki",
+   "models": [
+    "Cultus",
+    "Alto",
+    "Swift",
+    "Wagon R"
+   ]
+  },
+  {
+   "id": 2,
+   "make": "Toyota",
+   "models": [
+    "Corolla",
+    "Yaris",
+    "Vitz",
+    "Hilux"
+   ]
+  },
+  {
+   "id": 3,
+   "make": "Honda",
+   "models": [
+    "Civic",
+    "City",
+    "Vezel"
+   ]
+  },
+  {
+   "id": 4,
+   "make": "Kia",
+   "models": [
+    "Sportage",
+    "Picanto"
+   ]
+  },
+  {
+   "id": 5,
+   "make": "Hyundai",
+   "models": [
+    "Tucson",
+    "Elantra"
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "id": 1,
+   "name": "Body"
+  },
+  {
+   "id": 2,
+   "name": "Brakes"
+  },
+  {
+   "id": 3,
+   "name": "Electrical"
+  },
+  {
+   "id": 4,
+   "name": "Engine"
+  },
+  {
+   "id": 5,
+   "name": "Filters"
+  },
+  {
+   "id": 6,
+   "name": "Fluids"
+  },
+  {
+   "id": 7,
+   "name": "Suspension"
+  },
+  {
+   "id": 8,
+   "name": "Transmission"
+  }
+ ]
+}

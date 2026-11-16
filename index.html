@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Auto parts catalog | AutoNest</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+<section class="hero"><div class="in"><div><h1>Find the right part for your car</h1><p>Genuine and OEM-grade parts with fitment checks, so the part you order is the part that fits.</p></div></div></section>
+<main class="container layout">
+<aside class="panel filters" aria-label="Filters">
+<h2>Filter parts</h2>
+<label for="q">Search</label><input id="q" type="search" placeholder="Brake pad, NGK, AN-1007">
+<label for="fMake">Car make</label><select id="fMake"><option value="">All makes</option></select>
+<label for="fCat">Category</label><select id="fCat"><option value="">All categories</option></select>
+<label for="fBrand">Brand</label><select id="fBrand"><option value="">All brands</option></select>
+<label for="fPrice">Max price (Rs)</label><input id="fPrice" type="number" min="0" step="100" placeholder="e.g. 5000">
+<div class="err" id="priceErr"></div>
+<label for="fSort">Sort by</label><select id="fSort"><option value="id|asc">Newest listed</option><option value="price|asc">Price: low to high</option><option value="price|desc">Price: high to low</option><option value="name|asc">Name A to Z</option></select>
+<p><button class="btn sec sm" id="reset" type="button">Clear filters</button></p>
+</aside>
+<section aria-live="polite"><div class="row" style="justify-content:space-between"><h2 id="count">Parts</h2></div><div id="grid" class="grid"></div><nav id="pager" class="pager" aria-label="Pages"></nav></section>
+</main>
+<script src="js/common.js"></script>
+<script src="js/catalog.js"></script>
+</body>
+</html>

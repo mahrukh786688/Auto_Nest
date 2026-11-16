@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cart and checkout | AutoNest</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main class="container"><h1>Cart and checkout</h1><div class="split"><section><div id="cart"></div></section>
+<section class="panel"><h2>Delivery details</h2><form id="orderForm" novalidate>
+<div class="field"><label for="oType">Order type</label><select id="oType"><option value="retail">Retail (pay full price)</option></select><div class="err"></div><p class="hint" id="typeHint"></p></div>
+<div class="field"><label for="oAddr">Delivery address</label><textarea id="oAddr" rows="2"></textarea><div class="err"></div></div>
+<div class="field"><label for="oPhone">Contact phone</label><input id="oPhone" placeholder="03XX-XXXXXXX"><div class="err"></div></div>
+<div class="field"><label for="oPay">Payment method</label><select id="oPay"><option value="">Choose...</option><option>Cash on delivery</option><option>Bank transfer</option><option>Card</option></select><div class="err"></div></div>
+<div class="field"><label for="oNote">Note for rider (optional)</label><input id="oNote" maxlength="120"></div>
+<div class="panel" style="margin-bottom:1rem"><b>Total: <span id="total">Rs 0</span></b></div>
+<button class="btn" type="submit" id="place">Place order</button></form></section></div></main>
+<script src="js/common.js"></script>
+<script src="js/checkout.js"></script>
+</body>
+</html>
